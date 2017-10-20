@@ -1,14 +1,7 @@
 package com.example.administrator.mobileguard.m2theftguard;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.telephony.TelephonyManager;
-import android.text.TextUtils;
-import android.view.View;
-import android.widget.Button;
 import android.widget.RadioButton;
-
-import android.widget.Toast;
 
 import com.example.administrator.mobileguard.R;
 

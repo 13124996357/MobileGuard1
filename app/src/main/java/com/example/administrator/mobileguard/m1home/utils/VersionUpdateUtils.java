@@ -5,10 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
-import android.preference.DialogPreference;
 import android.widget.Toast;
-
-import junit.runner.Version;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -22,10 +19,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 
-import java.util.logging.LogRecord;
-
 import com.example.administrator.mobileguard.R;
-import com.example.administrator.mobileguard.m1home.HomeActivity;
 import com.example.administrator.mobileguard.m1home.HomeActivity;
 import com.example.administrator.mobileguard.m1home.entity.VersionEntity;
 /**

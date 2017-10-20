@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.widget.RadioButton;
 
 import android.widget.Toast;
-import com.example.administrator.mobileguard.R;
 
+import com.example.administrator.mobileguard.R;
 
 
 public class SetUp1Activity extends BaseSetUpActivity{

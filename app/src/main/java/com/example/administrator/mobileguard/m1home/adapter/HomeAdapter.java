@@ -6,6 +6,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.example.administrator.mobileguard.R;
 
 
@@ -24,7 +25,7 @@ public class HomeAdapter extends BaseAdapter {
     public  int getCount(){
         return 9;
     }
-    //设置每个条目的界面
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
         View view=View.inflate(context,R.layout.item_home,null);
@@ -43,5 +44,7 @@ public class HomeAdapter extends BaseAdapter {
     public long getItemId(int position){
         return 0;
     }
+
+
 }
 

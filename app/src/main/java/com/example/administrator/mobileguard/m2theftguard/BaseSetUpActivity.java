@@ -7,7 +7,9 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.Window;
 import android.widget.Toast;
+
 import com.example.administrator.mobileguard.R;
+
 /**
  * Created by Administrator on 2017/10/16 0016.
  */

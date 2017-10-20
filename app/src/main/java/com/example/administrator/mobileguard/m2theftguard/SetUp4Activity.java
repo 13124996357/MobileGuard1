@@ -1,14 +1,9 @@
 package com.example.administrator.mobileguard.m2theftguard;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.widget.CompoundButton;
 import android.widget.RadioButton;
-import android.widget.TextView;
-import android.widget.ToggleButton;
 
 import com.example.administrator.mobileguard.R;
-
 
 
 public class SetUp4Activity extends BaseSetUpActivity {
