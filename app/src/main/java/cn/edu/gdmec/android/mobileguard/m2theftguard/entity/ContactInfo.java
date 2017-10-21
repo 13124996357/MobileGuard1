@@ -1,8 +1,9 @@
 package cn.edu.gdmec.android.mobileguard.m2theftguard.entity;
 
-/**
- * Created by Administrator on 2017/10/16 0016.
- */
+
 
 public class ContactInfo {
+    public String id;
+    public String name;
+    public String phone;
 }
