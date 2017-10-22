@@ -49,8 +49,8 @@ public class SetUpPasswordDialog extends Dialog implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_ok:
-                System.out.print("SetupPasswordDialog");
                 myCallBack.ok();
+                System.out.print("SetupPasswordDialog");
                 break;
             case R.id.btn_cancel:
                 myCallBack.cancel();
