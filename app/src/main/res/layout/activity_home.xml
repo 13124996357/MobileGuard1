@@ -18,15 +18,15 @@
             android:id="@+id/ll">
 
         <ImageView
-            android:background="@drawable/add"
-            android:layout_height="107.5dp"
+            android:background="@drawable/superman"
+            android:layout_height="107dp"
             android:layout_width="100dp"
             android:scaleType="fitXY" />
 
         <TextView android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:gravity="center"
-            android:id="@+id/tv_ad"
+            android:id="@+id/tv_home"
             android:typeface="normal"
             android:textSize="16sp"
             android:textScaleX="1.1"

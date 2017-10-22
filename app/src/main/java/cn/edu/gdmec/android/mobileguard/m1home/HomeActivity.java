@@ -43,8 +43,8 @@ public class HomeActivity extends AppCompatActivity {
         //设置条目的点击事件
         gv_home.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                switch (position) {
+            public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
+                switch (i) {
                     case 0://手机防盗
                         if (isSetUpPassword()) {
                             showInterPswdDialog();
@@ -101,11 +101,11 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if(keyCode==KeyEvent.KEYCODE_BACK){
-            if((System.currentTimeMillis()-mExitTime)>2000){
+            if((System.currentTimeMillis()-mExitTime)<2000){
+                System.exit(0);
+            }else {
                 Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();
                 mExitTime=System.currentTimeMillis();
-            }else {
-                System.exit(0);
             }
             return true;
         }
@@ -158,7 +158,7 @@ public class HomeActivity extends AppCompatActivity {
             }
 
             @Override
-            public void cancel() {
+            public void cancle() {
                 mInPswdDialog.dismiss();
             }
         });
