@@ -21,13 +21,13 @@ public class App extends Application{
         if(protecting){
             String bindsim=sp.getString("sim","");
             TelephonyManager tm=(TelephonyManager)getSystemService(Context.TELECOM_SERVICE);
-            String realsim=tm.getSimSerialNumber();
+            String realsim = tm.getSimSerialNumber();
             realsim="999";
             if(bindsim.equals(realsim)){
                 Log.i("","SIM卡未发生变化，还是你手机");
             }else{
                 Log.i("","SIM卡发生变化了");
-                String safenumber=sp.getString("safephone","");
+                String safenumber=sp.getString("safephone"," ");
                 if(!TextUtils.isEmpty(safenumber)){
                     SmsManager smsManager = SmsManager.getDefault();
                     smsManager.sendTextMessage(safenumber,null,"你的亲友手机SIM卡已经被更改",null,null);

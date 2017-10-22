@@ -14,7 +14,7 @@ import java.util.List;
 import cn.edu.gdmec.android.mobileguard.m2theftguard.ContactSelectActivity;
 import cn.edu.gdmec.android.mobileguard.m2theftguard.entity.ContactInfo;
 public class ContactInfoParser {
-    public static List<ContactInfo> getSystemContact(Context context) {
+   public static List<ContactInfo> getSystemContact(Context context) {
         ContentResolver resolver = context.getContentResolver();
         Uri uri = Uri.parse("content://com.android.contacts/row_contacts");
         Uri datauri = Uri.parse("content://com.android.contacts/data");

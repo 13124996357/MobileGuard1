@@ -47,7 +47,7 @@ public class SetUp3Activity extends BaseSetUpActivity implements View.OnClickLis
         startActivityAndFinishShelf(SetUp2Activity.class);
     }
 
-    @Override
+   @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_addcontact:

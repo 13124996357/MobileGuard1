@@ -7,3 +7,10 @@
 /build
 /captures
 .externalNativeBuild
+src/main/aidl/
+app/.idea/.name
+app/gradle/
+app/gradlew
+app/gradlew.bat
+app/local.properties
+app/src/main/aidl/
